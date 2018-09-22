@@ -48,7 +48,7 @@
 			<div class="col-sm-12">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link" id="table-data-marketcap-tab" data-toggle="tab" href="#marketcap" role="tab" aria-controls="contact" aria-selected="false">Statistik</a>
+						<a class="nav-link" id="table-data-statistik-tab" data-toggle="tab" href="#statistik" role="tab" aria-controls="contact" aria-selected="false">Statistik</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id="table-storing-data-market-tab" data-toggle="tab" href="#storing" role="tab" aria-controls="profile" aria-selected="false">Upcaming MN Realase</a>
@@ -61,7 +61,7 @@
 					</li>
 				</ul>
 				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade show active py-3" id="market" role="tabpanel" aria-labelledby="table-market-tab">
+					<div class="tab-pane fade py-3" id="market" role="tabpanel" aria-labelledby="table-market-tab">
 						<table id="exampleMarket" class="display" style="width:100%">
 							<thead>
 								<tr>
@@ -395,8 +395,8 @@
 							</tfoot>
 						</table>
 					</div>
-					<div class="tab-pane fade py-3" id="marketcap" role="tabpanel" aria-labelledby="table-data-marketcap-tab">
-						<table id="exampleMarketcap" class="display" style="width:100%">
+					<div class="tab-pane fade show active py-3" id="statistik" role="tabpanel" aria-labelledby="table-data-statistik-tab">
+						<table id="exampleStatistik" class="display" style="width:100%">
 							<thead>
 								<tr>
 									<th>id</th>
@@ -587,7 +587,7 @@
 			$('#exampleStoring').DataTable();
 			$('#exampleCoin').DataTable();
 			$('#exampleWallet').DataTable();
-			$('#exampleMarketcap').DataTable();
+			$('#exampleStatistik').DataTable();
 		} );
 	</script>
 </body>
